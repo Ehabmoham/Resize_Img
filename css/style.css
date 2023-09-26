@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-color: #f5f5f5;
+    display: grid;
+    place-content: center;
+}
+
+.app{
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    margin: 20px  auto;
+}
+
+.app .upload-img{
+    display: block;
+}
+
+.app .upload-img label{
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 3px dashed #03a9f4;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.app .upload-img label .icon{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.app .upload-img label span{
+    display: block;
+    color: #03a9f4;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.app .upload-img input{
+    display: none;
+}
+
+.app .img-container{
+    display: none;
+}
+
+.app .img-container .img{
+    background-color: #f5f5f5;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.app .img-container .img img{
+    width: 100%;
+    border-radius: 4px;
+    user-select: none;
+}
+
+.settings{
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.settings .dimanshion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.settings .dimanshion span{
+    display: block;
+    color: #2196F3;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.settings .dimanshion input{
+    width: 150px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.settings .download-img{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #2196F3;
+    text-decoration: none;
+    padding: 10px;
+    border: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.result-img{
+    display: none;
+}
